@@ -53,7 +53,7 @@ nav li a:hover{
 
 .products{
     background-image: url("../images/Curvatura_fondo.png");
-    height: 300px;
+    height: 100px;
     background-size: cover;
     background-position: center top;
     padding: 15%;
