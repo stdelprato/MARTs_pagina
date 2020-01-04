@@ -1,70 +1,99 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
 html,body{
-    padding: 0px;
-    margin: 0px;
-    font-size: 10px;
-    font-family: Rubik;
-}
-
-/* ----------------------NAVBAR---------------------- */
-
-nav{
+    padding:0px;
+    margin:0px;
+    font-size: 12px;
+    font-family: Helvetica;
+  }
+  
+  nav{
     display: flex;
     background-color: #4DD400;
     padding: 2px;
     color: white;
     justify-content: space-between;
     align-items: center;
-    font-family: Rubik;
-}
+  }
 
-nav div img{
+  nav div img{
     width: 200px;
     height: auto;
     padding-left: 15px;
 }
-
-nav ul{
+  
+  nav ul{
     display: flex;
-}
-
-nav li{
+  }
+  
+  nav li{
     padding: 0px 10px 0px 20px;
     list-style: none;
     font-size: 20px;
-}
-
-nav li a{
+  }
+  
+  nav li a{
     color: black;
     text-decoration: none;
-}
-
-nav li a:hover{
+  }
+  
+  nav li a:hover{
     color: white;
-}
-
-/* ----------------------NAVBAR---------------------- */
-
-/* ----------------------MAIN SECTION---------------------- */
-
-.main_section{
-    padding: 10%;
+  }
+  
+  /* ------------------------ Main section */
+  
+  .main_section{
+    padding: 5%;
     text-align: center;
-}
-
-.products{
+  }
+  
+  .products{
     background-image: url("../images/Curvatura_fondo.png");
-    height: 100px;
+    max-height: 50px;
     background-size: cover;
     background-position: center top;
-    padding: 15%;
+    padding: 25%;
     display: flex;
-}
-
-.product{
+  }
+  
+  .product{
     padding: 10px;
-}
-
-.product .content{
+    margin-top: -400px;
+  }
+  .product .content{
     background-color: white;
     padding: 20px;
-}
+    box-shadow: 0 0 1px #c1bcbc;
+  }
+
+  div img{
+    height: 150px;
+    width: auto;
+  }
+
+  .img_content{
+    text-align: center;
+  }
+  
+  .main_button{
+    background-color: #4DD400;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border:0;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .main_button:hover{
+    background-color: #5e9e22;
+  }
+  
