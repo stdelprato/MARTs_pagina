@@ -6,49 +6,62 @@
 #  \___/____/____/··
 #  ·················
 */
+/* ---------------Variables */
+:root{
+--orange-color: #df9100;
+--white-color: white;
+--black-color: black;
+
+}
+/* ---------------Variables */
+
 html,body{
   padding:0px;
   margin:0px;
   font-size: 12px;
   font-family: Helvetica;
-  background-color: #ffffff;
+  background-color: var(--black-color);
 }
 
 nav{
   display: flex;
-  background-color: #f0e427;
+  background-color: var(--orange-color);
   padding: 2px;
-  color: white;
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
-  -webkit-box-shadow: 0px -29px 5px 36px rgba(38,69,173,1);
-  -moz-box-shadow: 0px -29px 5px 36px rgba(38,69,173,1);
-  box-shadow: 0px -29px 5px 36px #f0e427;
+  box-shadow: 0px -29px 5px 36px var(--orange-color);
 }
 
+/* tamanio del logo de MARTs */
 nav div img{
   height: 65px;
   width: auto;
   padding: 5px 15px 0px;
 }
+/* tamanio del logo de MARTs */
 
+/* ordena las <ul> del navbar (faqs y productos) */
 nav ul{
   display: flex;
 }
 
+/* style del navbar */
 nav li{
   padding: 5px 10px 0px 20px;
   list-style: none;
   font-size: 20px;
 }
 
+/* todo lo q tenga escrito el navbar (faqs y lo otro) */
 nav li a{
-  color: black;
+  color: var(--black-color);
   text-decoration: none;
 }
 
+/* hover del <li> */
 nav li a:hover{
-  color: white;
+  color: var(--white-color);
 }
 
 /* ------------------------ Main section */
@@ -56,7 +69,7 @@ nav li a:hover{
 .main_section{
   padding: 50px 0px 100px 0px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: var(--white-color);
 }
 
 .products{
@@ -64,8 +77,9 @@ nav li a:hover{
   max-height: 50px;
   background-size: cover;
   background-position: center top;
-  padding: 25%;
+  padding: 25% 25% 0px 25%;
   display: flex;
+  background-color: var(--black-color);
 }
 
 .product{
@@ -73,7 +87,7 @@ nav li a:hover{
   margin-top: -400px;
 }
 .product .content{
-  background-color: white;
+  background-color: var(--white-color);
   padding: 20px;
   box-shadow: 0 0 1px #c1bcbc;
   border-radius: 12px 12px 12px 12px;
@@ -82,27 +96,32 @@ nav li a:hover{
   border: 1px solid #969696;
 }
 
+/* tamanio de la imagen del producto */
 div img{
   height: 150px;
   width: auto;
 }
 
+/* esto centra la imagen del producto en la cajinga */
 .img_content{
   text-align: center;
 }
 
+/* boton de lotrai */
 .main_button{
-  background-color: rgb(61, 167, 0);
+  /* ANTERIOR COLOR NO TOCAR -----background-color: rgb(61, 167, 0); */
+  background-color: var(--orange-color);
   width: 100%;
   height: 40px;
-  /* padding: 10px; */
-  font-size: 22px;
-  color: white;
+  font-size: 20px;
+  color: black;
   border:0;
   cursor: pointer;
   border-radius: 2px;
+  border: 1px solid #c7c7c7;
 }
 
+/* hover del boton */
 .main_button:hover{
-  background-color: #457517;
+  background-color: #cc7f3b;
 }
