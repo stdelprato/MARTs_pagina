@@ -1,0 +1,38 @@
+@media (max-width: 600px){
+
+.products{
+    display: inherit;
+    height: auto;
+    background-image: unset;
+}
+
+.product{
+    margin-top: auto;
+}
+
+.features{
+    margin-top: 1000px;
+}
+
+#feature_img{
+    width: auto;
+}
+
+.main_section{
+    padding: 4%;
+}
+
+.features, .mentions{
+    display: inherit;
+    margin-left: 73px;
+}
+
+.mentions{
+    margin-top: -90px;
+}
+
+.mention{
+    margin-top: 20px;
+}
+
+}

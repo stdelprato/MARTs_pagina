@@ -13,6 +13,7 @@
 --orange-color: #df9100;
 --white-color: white;
 --black-color: black;
+--yellow-color: rgb(238, 206, 101);
 /* /colores */
 
 /* box shadow */
@@ -46,14 +47,14 @@ nav{
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px -29px 5px 36px var(--orange-color);
+  box-shadow: 0px -35px 5px 36px var(--black-color);
 }
 
 /* tamanio del logo de MARTs */
 nav div img{
   height: 65px;
   width: auto;
-  padding: 5px 15px 0px;
+  padding: 0px 15px 0px;
 }
 /* tamanio del logo de MARTs */
 
@@ -64,7 +65,7 @@ nav ul{
 
 /* style del navbar */
 nav li{
-  padding: 5px 10px 0px 20px;
+  padding: 0px 10px 0px 20px;
   list-style: none;
   font-size: var(--mediano);
 }
@@ -149,8 +150,12 @@ div img{
 
 /* --------------------------------CARACTERISTICAS */
 
+#fondoGral{
+  /* background-image: url("../images/fondos/Rectangle\ 6.png"); */
+  background-color: rgb(234, 234, 234, 0.14);
+}
+
 .features{
-  background-image: url("../images/fondos/Rectangle\ 6.png");
   text-align: center;
   display: flex;
   padding: 50px 25% 5% 10%;
@@ -176,4 +181,54 @@ div img{
   color: var(--white-color);
   font-size: var(--mediano);
   text-shadow: rgb(49, 49, 49) 3px 3px;
+}
+
+/* -------------------------------------- MENCIONES */
+
+#menciones{
+  text-align: center;
+  font-size: 40px;
+  text-shadow: rgb(49, 49, 49) 1px 1px;
+}
+
+.mentions{
+  /* background-image: url("../images/fondos/Rectangle\ 6.png"); */
+  margin-top: -126px;
+  display: flex;
+  text-align: center;
+  padding: 50px 25% 5% 8%;
+}
+
+.mention{
+  margin-top: 130px;
+  padding-right: 25px;
+}
+
+.mention .content{
+  border: 1px solid #a1a1a1;
+  -webkit-box-shadow: 7px 7px 10px -8px rgba(0,0,0,0.91);
+  -moz-box-shadow: 7px 7px 10px -8px rgba(0,0,0,0.91);
+  box-shadow: 7px 7px 10px -8px rgba(0,0,0,0.91); 
+  background-color: var(--white-color);
+}
+
+#mention_title{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#mention_quote{
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* --------------------------------------footer */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--mediano);
+  background-color: var(--black-color);
+  padding: 15px;
+  color: var(--white-color);
 }
