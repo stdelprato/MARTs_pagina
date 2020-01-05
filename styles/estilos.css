@@ -6,11 +6,25 @@
 #  \___/____/____/··
 #  ·················
 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 /* ---------------Variables */
 :root{
+/* colores */
 --orange-color: #df9100;
 --white-color: white;
 --black-color: black;
+/* /colores */
+
+/* box shadow */
+--box: 0px 0 2px 1px #313131;
+/* /box shadow */
+
+/* tipografia */
+--normal: 12px;
+--mediano: 20px;
+--grande: 30px;
+/* /tipografia */
+
 
 }
 /* ---------------Variables */
@@ -18,9 +32,11 @@
 html,body{
   padding:0px;
   margin:0px;
-  font-size: 12px;
-  font-family: Helvetica;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
   background-color: var(--black-color);
+  background-image: url("../images/fondos/footer_lodyas.png");
+
 }
 
 nav{
@@ -50,7 +66,7 @@ nav ul{
 nav li{
   padding: 5px 10px 0px 20px;
   list-style: none;
-  font-size: 20px;
+  font-size: var(--mediano);
 }
 
 /* todo lo q tenga escrito el navbar (faqs y lo otro) */
@@ -67,32 +83,38 @@ nav li a:hover{
 /* ------------------------ Main section */
 
 .main_section{
-  padding: 50px 0px 100px 0px;
+  padding: 40px 0px 100px 0px;
   text-align: center;
   color: var(--white-color);
+  font-family: Reem Kufi;
 }
 
+/* ------------------------ Productos */
+
 .products{
-  background-image: url("../images/Curvatura_fondo.png");
+  background-image: url("../images/fondos/FONDOFONDOESFONDO.png");
   max-height: 50px;
   background-size: cover;
   background-position: center top;
-  padding: 25% 25% 0px 25%;
+  padding: 25% 25% 5% 25%;
   display: flex;
-  background-color: var(--black-color);
+  /* background-color: var(--black-color); */
 }
 
 .product{
   padding: 10px;
   margin-top: -400px;
 }
+
+.product .titulo{
+  font-family: Helvetica;
+}
+
 .product .content{
   background-color: var(--white-color);
   padding: 20px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: var(--box);
   border-radius: 12px 12px 12px 12px;
-  -moz-border-radius: 12px 12px 12px 12px;
-  -webkit-border-radius: 12px 12px 12px 12px;
   border: 1px solid #969696;
 }
 
@@ -109,11 +131,10 @@ div img{
 
 /* boton de lotrai */
 .main_button{
-  /* ANTERIOR COLOR NO TOCAR -----background-color: rgb(61, 167, 0); */
   background-color: var(--orange-color);
   width: 100%;
   height: 40px;
-  font-size: 20px;
+  font-size: var(--mediano);
   color: black;
   border:0;
   cursor: pointer;
@@ -124,4 +145,35 @@ div img{
 /* hover del boton */
 .main_button:hover{
   background-color: #cc7f3b;
+}
+
+/* --------------------------------CARACTERISTICAS */
+
+.features{
+  background-image: url("../images/fondos/Rectangle\ 6.png");
+  text-align: center;
+  display: flex;
+  padding: 50px 25% 5% 10%;
+}
+
+.feature{
+  padding: 0px 100px 0px 0px;
+}
+
+#feature_img{
+  width: 300px;
+  height: auto;
+}
+
+#feature_title{
+  color: var(--white-color);
+  font-family: Rubik;
+  font-size: var(--grande);
+  text-shadow: rgb(49, 49, 49) 3px 3px;
+}
+
+#feature_description{
+  color: var(--white-color);
+  font-size: var(--mediano);
+  text-shadow: rgb(49, 49, 49) 3px 3px;
 }
