@@ -168,11 +168,11 @@ div img{
 .features{
   text-align: center;
   display: flex;
-  padding: 50px 25% 5% 10%;
+  margin-left: 5%;
 }
 
 .feature{
-  padding: 0px 100px 0px 0px;
+  padding-right: 5%;
 }
 
 #feature_img{
@@ -202,22 +202,20 @@ div img{
 }
 
 .mentions{
-  /* background-image: url("../images/fondos/Rectangle\ 6.png"); */
-  margin-top: -126px;
-  display: flex;
+  margin-top: -125px;
+  margin-left: 8%;
   text-align: center;
-  padding: 50px 25% 5% 8%;
+  display: flex;
+  padding: 10% 10% 5% 0;
 }
 
 .mention{
-  margin-top: 130px;
-  padding-right: 25px;
+  /* margin-top: 130px; */
+  padding-right: 2%;
 }
 
 .mention .content{
   border: 1px solid #a1a1a1;
-  -webkit-box-shadow: 7px 7px 10px -8px rgba(0,0,0,0.91);
-  -moz-box-shadow: 7px 7px 10px -8px rgba(0,0,0,0.91);
   box-shadow: 7px 7px 10px -8px rgba(0,0,0,0.91); 
   background-color: var(--white-color);
 }
@@ -241,6 +239,12 @@ footer{
   background-color: var(--black-color);
   padding: 15px;
   color: var(--white-color);
+}
+
+#diosmio{
+  position:fixed;
+  bottom:0;
+  width: 98%;
 }
 
 /* --------------------------------------Productos */
@@ -269,7 +273,7 @@ footer{
   padding: 4%;
   border: 1px solid var(--black-color);
   border-radius: 10px;
-  background-color: #ffffff8f;
+  background-color: #ffffffe7;
 }
 
 .prod_descriptions{
@@ -278,4 +282,61 @@ footer{
 
 .cont_products img:hover{
   transform: scale(1.2, 1.2);
+}
+
+/* --------------------------------------Venta */
+
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: 15px 10px 10px 10px;
+  vertical-align: middle;
+  /* margin: 2% 3% 2% 4; */
+  border-radius: 5px;
+}
+
+.image_cfg{
+  text-align: center;
+}
+
+.modulo_pago h1{
+  font-size: var(--grande);
+}
+
+.modulo_pago label{
+  font-size: medium;
+  /* padding: 0 10px 0 0; */
+}
+
+.modulo_pago .input{
+  margin-top: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+  margin: 25px 25% 5px 12.5%;
+  width: 75%;
+  border-radius: 5px;
+}
+
+#row_ventas{
+  margin: 96px 0;
+}
+
+.faqs{
+  margin: 50px 260px 50px 100px;
+  margin-left: 100px;
+  margin-right: 260px;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+  box-shadow: var(--box);
+  background-color: var(--white-color);
+  border-radius: 10px;
 }

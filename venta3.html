@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <title>MARTs - Martillos de todo tipo</title>
+</head>
+<body>
+
+    <!-- Aca arranca el navBar -->
+    <nav class="fadeInDown">
+        <div class="catbox_image">
+            <a href="index.html"><img src="./images/marts/LOGO MARTs.png" alt="Logo de Catbox"></a>
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><div class="vl"></div></li>
+                <li><a href="producto.html">Productos y Descripcion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Aca termina el navBar -->
+    
+    <!-- Empieza formulario ventas -->
+
+    <br>
+    <div class="container fadeIn">
+        <div class="row" id="row_ventas">
+            <div class="col-4">
+                <div class="modulo_pago">
+                    <div class="image_cfg">
+                        <img src="./images/martillo 3.png" alt="Martillo 3">
+                    </div>
+                    <h1><strong>Martillo 3</strong></h1>
+                    <p>Miles de martillos hay en el mercado, ninguno como este.</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo_pago">
+                    <form action="">
+                        <label id="label_cfg" for="name">Nombre</label>
+                        <br>
+                        <input type="text" placeholder="" name="name" class="input">
+                        <br>
+                        <label id="label_cfg" for="email">E-mail</label>
+                        <br>
+                        <input type="text" placeholder="" name="email" class="input">
+                        <br>
+                        <label id="label_cfg" for="telefono">Telefono</label>
+                        <br>
+                        <input type="text" placeholder="" name="telefono" class="input"> 
+                        <input type="submit" class="main_button" name="submit" value="Confirmar pago">
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Termina formluario ventas -->
+
+
+    <!-- Aca arranca el footer -->
+    <footer id="diosmio">
+        <div class="option">Terminos y condiciones</div>
+        <div class="option">contacto@marts.com</div>
+    </footer>
+    <!-- Aca termina el footer -->
+    
+<script src="scripts/script.js"></script>
+</body>
+</html>
