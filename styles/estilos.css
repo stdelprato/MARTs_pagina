@@ -41,6 +41,11 @@ html,body{
 
 }
 
+.vl {
+  border-left: 1px solid #0f0f0f4a;
+  height: 30px;
+}
+
 nav{
   display: flex;
   background-color: var(--orange-color);
@@ -247,20 +252,20 @@ footer{
   font-size: 18px;
 }
 
-.container{
+.cont_products{
   padding: 50px 0 100px 0;
   text-align: center;
 }
 
-.container h1{
+.cont_products h1{
   font-size: var(--grande);
 }
 
-.container p{
+.cont_products p{
   font-size: var(--mediano);
 }
 
-.row{
+.cont_products .row{
   padding: 4%;
   border: 1px solid var(--black-color);
   border-radius: 10px;
@@ -271,6 +276,6 @@ footer{
   padding-bottom: 20px;
 }
 
-.container img:hover{
+.cont_products img:hover{
   transform: scale(1.2, 1.2);
 }
