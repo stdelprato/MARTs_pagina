@@ -1,0 +1,33 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(0deg, rgba(9, 255, 0, 0.15), rgba(9, 255, 0, 0.15)), url(../images/fondos/footer_lodyas.png) repeat;
+}
+
+body{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mario{
+    height: 300px;
+    width: auto;
+}
+
+.content_paypal h3{
+    font-size: 30px;
+}
+
+.content_paypal p a:visited{
+    color: rgb(197, 197, 197);
+}
+
+.content_paypal a, a:visited{
+    color:rgb(84, 84, 246);
+}
