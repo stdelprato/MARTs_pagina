@@ -6,6 +6,7 @@
 #  \___/____/____/··
 #  ·················
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 /* ---------------Variables */
 :root{
@@ -55,6 +56,10 @@ nav div img{
   height: 65px;
   width: auto;
   padding: 0px 15px 0px;
+}
+
+nav div img:hover{
+  transform: scale(1.05, 1.05);
 }
 /* tamanio del logo de MARTs */
 
@@ -231,4 +236,41 @@ footer{
   background-color: var(--black-color);
   padding: 15px;
   color: var(--white-color);
+}
+
+/* --------------------------------------Productos */
+
+#titulo{
+  padding: 3% 0 0 17%;
+  color: var(--white-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.container{
+  padding: 50px 0 100px 0;
+  text-align: center;
+}
+
+.container h1{
+  font-size: var(--grande);
+}
+
+.container p{
+  font-size: var(--mediano);
+}
+
+.row{
+  padding: 4%;
+  border: 1px solid var(--black-color);
+  border-radius: 10px;
+  background-color: #ffffff8f;
+}
+
+.prod_descriptions{
+  padding-bottom: 20px;
+}
+
+.container img:hover{
+  transform: scale(1.2, 1.2);
 }
