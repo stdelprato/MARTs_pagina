@@ -31,6 +31,7 @@
 }
 /* ---------------Variables */
 
+/* reglas generales */
 html,body{
   padding:0px;
   margin:0px;
@@ -40,36 +41,37 @@ html,body{
   background-image: url("../images/fondos/footer_lodyas.png");
 }
 
+/* barrita entre faqs y productos que tira facha */
 .vl {
   border-left: 1px solid #0f0f0f4a;
   height: 30px;
 }
 
+/* navBar */
 nav{
   display: flex;
   background-color: var(--orange-color);
-  padding: 2px;
-  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px -35px 5px 36px var(--black-color);
+  box-shadow: 0px -35px 5px 35px var(--black-color);
 }
 
 /* tamanio del logo de MARTs */
 nav div img{
   height: 65px;
   width: auto;
-  padding: 0px 15px 0px;
+  padding: 0px 15px;
 }
 
+/* hover del logo de MARTs */
 nav div img:hover{
   transform: scale(1.05, 1.05);
 }
-/* tamanio del logo de MARTs */
 
 /* ordena las <ul> del navbar (faqs y productos) */
 nav ul{
   display: flex;
+  padding-right: 10px;
 }
 
 /* style del navbar */
@@ -108,7 +110,6 @@ nav li a:hover{
   background-position: center top;
   padding: 25% 25% 5% 25%;
   display: flex;
-  /* background-color: var(--black-color); */
 }
 
 .product{
